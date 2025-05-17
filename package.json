@@ -1,0 +1,25 @@
+{
+  "name": "satoshi-quotes-bot",
+  "version": "1.0.0",
+  "description": "A Nostr bot that posts Satoshi quotes and welcomes users with intro hashtags",
+  "main": "satoshi-quotes-bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node satoshi-quotes-bot.js"
+  },
+  "dependencies": {
+    "@noble/curves": "^1.9.1",
+    "@scure/base": "^1.2.5",
+    "dotenv": "^16.5.0",
+    "nostr-tools": "^1.17.0",
+    "websocket-polyfill": "^0.0.3"
+  },
+  "keywords": [
+    "nostr",
+    "bitcoin",
+    "satoshi",
+    "bot"
+  ],
+  "author": "",
+  "license": "ISC"
+}
