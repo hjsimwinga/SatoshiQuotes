@@ -1,7 +1,7 @@
 {
   "name": "nostr-bots",
   "version": "1.0.0",
-  "description": "Nostr bots - Satoshi Quotes Bot and Welcome Bot",
+  "description": "Nostr bots - Satoshi Quotes and Welcome Bot",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -22,9 +22,7 @@
     "nostr",
     "bitcoin",
     "satoshi",
-    "bot",
-    "welcome-bot",
-    "quotes"
+    "bot"
   ],
   "author": "",
   "license": "ISC"
