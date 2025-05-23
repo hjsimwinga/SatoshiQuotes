@@ -22,7 +22,7 @@ const pk = getPublicKey(sk);
 console.log(`🔑 Bot running with pubkey: ${pk.slice(0, 59)}`);
 
 // Configuration
-const hashtags = (process.env.HASHTAGS || 'introductions,bitcoin,nostr,lightning,zaps,asknostr,grownostr,foodstr,zapathon,plebchain').split(',').map(h => h.trim());
+const hashtags = (process.env.HASHTAGS || 'introductions,bitcoin,nostr,lightning,zaps,asknostr,grownostr,foodstr,zapathon,plebchain,damus,memestr,pleb,sats,value4value,v4v,stackingsats,bitcoinonly,orangecoin,hodl,plebs,coffeecorner,bitcoinislife,bitcoinmemes,bitcoinnews,freedomtech,nostrgram,nostrrelay,nostrtips,nostrcommunity,bitcoinplebs,bitcoinzweaps,nostrbuilders,nostrdev,nostrevent,nostrfam,nostrfood,nostrgaming,nostrart,nostrmusic,nostrpodcast,nostrquotes,nostrthoughts,nostrlife,nostrlove,nostrtech,nostrtrading,nostrwriting,nostrwriters,nostrhelp,nostrguides,nostrtutorial,nostrresources,nostrbook,nostrjournal,nostrnotes,nostrphilosophy,nostrhistory,nostrpoetry,nostrhumor,nostrmemes,nostrshitpost,nostrquestions,nostrdebate,nostrpolicy,nostrpolitics,nostrfreedom,nostrprivacy,nostrsecurity,nostranon,nostrcypherpunks,nostrbounties,nostrjobs,nostrmarket,nostrbusiness,nostrstartups,nostrfinance,nostrinvesting,nostrrealestate,nostrtravel,nostrfitness,nostrhealth,nostrwellness,nostryoga,nostrmeditation,nostrspirituality,nostrfaith,nostrchristian,nostrreligion,nostrscience,nostrspace,nostrAI,nostrrobotics,nostrfuture,nostrutopia').split(',').map(h => h.trim());
 const relays = [
   'wss://relay.damus.io',
   'wss://relay.snort.social',
